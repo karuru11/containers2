@@ -3,6 +3,10 @@
     font-family: 'Montserrat', sans-serif}
 
 
+.hero-section{
+    background-color: #f4f4f4;
+}
+
 .hero-content {display: grid;
             grid-template-columns: 50% 50%;
             max-width: 1080px;
@@ -46,31 +50,47 @@
 /*FIN HERO*/
 
 /*inicio requisitos section */
-    .requisitos-grid{
-        background-image: url(../img/fondo.jpeg);
+    .section-requisitos{
+        height: 350px;
+        background-image: url(../img/fondo-azul.svg);
         background-position: center; 
         background-repeat: no-repeat; 
         background-size: cover;
+        margin-bottom: 80px;
+        margin-top: 40px;
+        
+    }
+
+    .requisitos-grid{
+        height: 350px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
         align-items: center;
-        max-width: 1080px;
+        max-width: 800px;
         margin: 0 auto;
     }
 
     
     .requisitos-img img{
         width: 400px;
+        display: block;
+    }
+    
+
+    .requisitos-img-mobile{
+        display: none;
     }
 
+    
     .requisitos-txt h1{
         color: #dfe0e0;
         font-size: 40px;
+        font-weight: 1000;
         
     }
 
     .requisitos-txt h2{
-        color:#6a6969;
+        columns: #292929;;
         padding-bottom: 20px;
     }
     .requisitos-txt b{
@@ -83,6 +103,95 @@
 
 /*fin requisitos section*/
 
+
+/*inicio ventajas section*/
+
+    .ventajas-section{
+        max-width: 800px;
+        margin: 80px auto;
+        
+    }
+
+    .ventajas-txt{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .ventajas-txt h1{
+        color: #dfe0e0;
+        font-size: 40px;
+        font-weight: 1000;
+    }
+
+    .ventajas-txt h2{ 
+        columns: #292929;;
+    }
+    
+    .ventajas-txt b{
+        color: #FFC107;
+    }
+
+    .ventajas-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 40px;
+        align-items: flex-start;
+        
+
+    }
+
+    .ventajas-icono{
+        text-align: center;
+        width: 230px;
+    }
+
+    .ventajas-icono img {
+        width: 40%;
+    }
+
+/*fin ventajas section*/
+
+/*inicio web section*/
+
+    .propia-web{
+        background-color: #f4f4f4
+     }
+
+    .web-grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+    }
+  
+    .web-img{
+        text-align: center;
+        margin:  40px 0px;
+        
+    }
+
+    .web-img img{
+        width: 60%;
+        
+    }
+
+
+    .web-txt h1{
+        color: #dfe0e0;
+        font-size: 40px;
+        font-weight: 1000;
+    }
+
+    .web-txt h2{
+        color: #FFC107;
+        font-weight: 1000;
+        margin-bottom: 20px;
+    }
+
+    .web-txt p{
+        width:350px;
+    }
+
+/*fin web section*/
 
     /*footer*/
 
@@ -128,4 +237,66 @@
     
     .hero-content p {width: 100%}
 
+    .section-requisitos{
+        background-image: none;
+        height: auto;
+    }
+
+    .requisitos-grid{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .requisitos-txt{
+        text-align: center;
+        padding: 40px 40px 20px 40px;
+    }
+
+    .requisitos-img{
+        display: none;
+
+    }
+
+    .requisitos-img-mobile{
+        display: block;
+    }
+
+    .requisitos-img-mobile img{
+        width: 100%;
+    }
+
+    .ventajas-section{
+        margin: 40px auto;
+    }
+
+    .ventajas-grid{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+    .ventajas-icono{
+        width: 100%;
+    }
+
+    .ventajas-icono p{
+        padding: 0px 20px;
+    }
+
+    .web-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .web-txt{
+        text-align: center;
+        padding: 20px 40px;
+    }
+    
+    .web-txt p{
+        width: auto;
+    }
+
+    .web-txt h1{
+        font-size: 2.6em;
+    }
+    
 }

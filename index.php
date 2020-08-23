@@ -83,12 +83,88 @@ y transporte.</p>
               <img src="img/requisitos.png" alt="">
           </div>
 
+          
+          <div class="requisitos-img-mobile">
+              <img src="img/fondo-mobile.jpeg" alt="">
+          </div>
+
           </div>
           
           
         </section> 
 
       <!--Fin requisitos section -->
+
+      <!--inicio ventajas section-->
+          <section class="ventajas-section">
+          <div class="ventajas-txt">
+                      <h1>VENTAJAS</h1>
+                      <h2>DE SER <b>LICENCIATARIO</b></h2>
+                  </div>
+              <div class="ventajas-grid"> 
+                  <div class="ventajas-icono">
+                    <img src="img/1.svg" alt="confianza">
+                    <p>La marca es confiable y reconocida por lo que inspira confianza en los clientes</p>
+                  </div>
+                  <div class="ventajas-icono">
+                    <img src="img/2.svg" alt="minimo costo">
+                    <p>Minimo costo de ingreso</p>
+                  </div>
+                  <div class="ventajas-icono">
+                    <img src="img/3.svg" alt="empeza a ganar dinero">
+                    <p>Empezas a ganar dinero sin invertir tu capital</p>
+                  </div>
+                  <div class="ventajas-icono">
+                    <img src="img/4.svg" alt="compra containers">
+                    <p>Comprás los containers con el pago anticipado del cliente.</p>
+                  </div>
+                  <div class="ventajas-icono">
+                    <img src="img/5.svg" alt="compra donde vos queres">
+                    <p>Tenes libertad de comprar donde vos querés</p>
+                  </div>
+                  <div class="ventajas-icono">
+                    <img src="img/6.svg" alt="libertad horaria">
+                    <p>Tenés libertad horaria</p>
+                  </div>
+                  <div class="ventajas-icono">
+                    <img src="img/7.svg" alt="ideal para trabajar en pareja">
+                    <p>Ideal para trabajar en pareja</p>
+                  </div>
+                  <div class="ventajas-icono">
+                    <img src="img/8.svg" alt="apoyo publicitario">
+                    <p>Apoyo publicitario</p>
+                  </div>
+                  <div class="ventajas-icono">
+                    <img src="img/9.svg" alt="los clientes siempre te llaman a vos">
+                    <p>Los clientes siempre te llamarán a vos!</p>
+                  </div>
+
+              </div>
+
+          </section>
+
+      <!--Fin ventajas section-->
+
+      <!--inicio propia-web section -->
+        <section class="propia-web">
+          <div class="web-grid">
+            <div class="web-img">
+              <img src="img/web.png" alt="imagen de la web">
+            </div>
+
+            <div class="web-txt">
+                <h1>TU PROPIA WEB</h1>
+                <h2>EXCLUSIVA CON TUS DATOS</h2>
+                <p>Te brindamos de manera gratuita tu propia weba la que podras acceder desde el primer momento que firmes el contrato! </p>
+                <br>
+                <p>Tendra tus datos personalizados para que se comuniquen con vos sin intermediarios.</p>
+            </div>
+
+          </div>
+
+        </section>
+
+      <!--Fin propia-web section -->
 
   <!--FOOTER-->
     <section class="footer-section">
