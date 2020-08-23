@@ -45,6 +45,44 @@
     cursor: pointer;}
 /*FIN HERO*/
 
+/*inicio requisitos section */
+    .requisitos-grid{
+        background-image: url(../img/fondo.jpeg);
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
+    
+    .requisitos-img img{
+        width: 400px;
+    }
+
+    .requisitos-txt h1{
+        color: #dfe0e0;
+        font-size: 40px;
+        
+    }
+
+    .requisitos-txt h2{
+        color:#6a6969;
+        padding-bottom: 20px;
+    }
+    .requisitos-txt b{
+        color: #ffc107;
+    }
+
+    .requisitos-txt p{
+        padding-bottom: 10px;
+    }
+
+/*fin requisitos section*/
+
 
     /*footer*/
 

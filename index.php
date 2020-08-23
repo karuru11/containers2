@@ -63,6 +63,33 @@ y transporte.</p>
       </section>
       <!--Fin Hero Section-->
 
+      <!--Inicio requisitos section -->
+        <section class="section-requisitos">
+          <div class="requisitos-grid">
+            <div class="requisitos-txt">
+                <h1>REQUISITOS</h1>
+                <h2>PARA SER <b>LICENCIATARIO</b></h2>
+                <p>- Ser mayor de 21 años</p>
+                <p>- Enviar foto del DNI (Frente y dorso)</p>
+                <p>- Tener CUIT</p>
+                <p>- Comprobante de servicio público o de domicilio</p>
+                <p>- Pagar el canon y enviar el comprobante por email</p>
+                <p>- No tener antecedentes penales</p>
+                <p>- Firmar el contrato</p>
+
+            </div>
+          
+          <div class="requisitos-img">
+              <img src="img/requisitos.png" alt="">
+          </div>
+
+          </div>
+          
+          
+        </section> 
+
+      <!--Fin requisitos section -->
+
   <!--FOOTER-->
     <section class="footer-section">
         <div class="footer-logo">
