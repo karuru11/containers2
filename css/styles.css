@@ -66,7 +66,7 @@
         display: grid;
         grid-template-columns: 50% 50%;
         align-items: center;
-        max-width: 800px;
+        max-width: 1080px;
         margin: 0 auto;
     }
 
@@ -107,7 +107,7 @@
 /*inicio ventajas section*/
 
     .ventajas-section{
-        max-width: 800px;
+        max-width: 1080px;
         margin: 80px auto;
         
     }
@@ -137,12 +137,14 @@
         row-gap: 40px;
         align-items: flex-start;
         
+        
 
     }
 
     .ventajas-icono{
         text-align: center;
         width: 230px;
+        margin: 0 auto;
     }
 
     .ventajas-icono img {
@@ -154,13 +156,17 @@
 /*inicio web section*/
 
     .propia-web{
-        background-color: #f4f4f4
+        background-color: #f4f4f4;
+        
      }
 
     .web-grid{
         display: grid;
         grid-template-columns: 50% 50%;
         align-items: center;
+        max-width: 1080px;
+        margin: 0 auto;
+        
     }
   
     .web-img{
@@ -170,7 +176,7 @@
     }
 
     .web-img img{
-        width: 60%;
+        width: 80%;
         
     }
 
@@ -192,6 +198,39 @@
     }
 
 /*fin web section*/
+
+/*inicio contrato section*/
+
+    .contrato-section{
+        
+        margin: 80px auto;
+        max-width: 1080px;
+
+    }
+
+    .contrato-section h1{
+        color: #dfe0e0;
+        font-size: 40px;
+        font-weight: 1000; 
+        text-align: center;
+    }
+
+    .contrato-section h2{
+        color: #FFC107;
+        font-weight: 1000;
+        margin-bottom: 20px;
+        text-align: center;  
+    }
+
+    .contrato-section h3{
+        margin: 20px 0px;
+    }
+
+    .contrato-section a{
+        color: #292828;
+    }
+
+/*fin contrato section*/
 
     /*footer*/
 
@@ -296,7 +335,17 @@
     }
 
     .web-txt h1{
-        font-size: 2.6em;
+        font-size: 2.3em;
+        padding-top: 20px ;
+        margin-bottom: 10px;
+    }
+
+    .web-img {
+        grid-row: 2/3;
+    }
+
+    .contrato-section{
+        padding: 20px 40px;
     }
     
 }

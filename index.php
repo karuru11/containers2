@@ -166,6 +166,32 @@ y transporte.</p>
 
       <!--Fin propia-web section -->
 
+      <!--Inicio contrato section-->
+        <section class="contrato-section">
+          <div class="contrato-titulo">
+            <h1>CONTRATO</h1>
+            <h2>Y MEDIOS DE PAGO</h2>
+            <h3>Cómo empezar?</h3>
+            <p>Imprimite <a href="#">aquí el contrato de licencia</a> y complétalo y luego firmálo agregando tu nombre completo, apellido, DNI, y aclaración de su firma y luego nos lo envías con el comprobante de pago. </p>
+            <h3>Cuánto hay que pagar?</h3>
+            <p>La licencia tiene un costo de 76.000 pesos más iva.</p>
+              <br>
+            <p>Podés optar por pagar el canon o costo de la licencia de una sóla vez en un sólo pago por transferencia Bancaria al siguiente CBU:</p> 
+              <br>
+            <p><b>00700207 30004034311085 (Sergio Saban)</b></p>
+              <br>
+            <p>Podés optar por hacer el pago atraves de mercado pago y si tu tarjeta de crédito lo permite Podés hacerlo en <b>3/6 o 12 cuotas de 6900 pesos.</b></p>
+
+            <p>Solo firmás el contrato y lo envías al email <b>sergiosaban@containersriodelaplata.com</b> junto con el comprobante de pago cumpliendo con los requisitos anteriormente citados y listo! Obtuviste tu licencia para sumarte a la red de licenciatarios de CRP Containers Río de la Plata y entrar al mundo de los containers maritimos y sus mil usos y servicios</p>
+              
+            
+          </div>
+
+        </section>
+
+
+      <!--Fin contrato section-->
+
   <!--FOOTER-->
     <section class="footer-section">
         <div class="footer-logo">
