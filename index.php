@@ -4,11 +4,16 @@
     <title>CRP Containers Rio de la Plata</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles-menu.css" type="text/css" media="all">
-      <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <script src="/assets/js/navbar.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
   </head>
   <body>
   
@@ -21,7 +26,6 @@
             <div><img src=""><p>11-4802-5424</p></div>
             <div><img src=""><p>9:00 AM - 18:00 PM</p></div>
             </div>
-            
         </div>
     </div>
       
@@ -48,8 +52,8 @@
 				nunca fue tan<br>
 				facil!</h1>
                 
-                <p>Ofrece servicios relacionados con la venta de
-Containers Maritimos, logisitica , gestion aduanera,
+                <p id="requisitos">Ofrece servicios relacionados con la venta de
+Containers Maritimos, logistica, gestion aduanera,
 consolidado de carga segura, gestion de presupuestos
 y transporte.</p>
                 </div>
@@ -64,7 +68,7 @@ y transporte.</p>
       <!--Fin Hero Section-->
 
       <!--Inicio requisitos section -->
-        <section class="section-requisitos">
+        <section class="section-requisitos" id="ventajas"> 
           <div class="requisitos-grid">
             <div class="requisitos-txt">
                 <h1>REQUISITOS</h1>
@@ -85,7 +89,7 @@ y transporte.</p>
 
           
           <div class="requisitos-img-mobile">
-              <img src="img/fondo-mobile.jpeg" alt="">
+              <img src="img/fondo-mobile.png" alt="">
           </div>
 
           </div>
@@ -146,7 +150,7 @@ y transporte.</p>
       <!--Fin ventajas section-->
 
       <!--inicio propia-web section -->
-        <section class="propia-web">
+        <section class="propia-web" id="web">
           <div class="web-grid">
             <div class="web-img">
               <img src="img/web.png" alt="imagen de la web">
@@ -155,9 +159,9 @@ y transporte.</p>
             <div class="web-txt">
                 <h1>TU PROPIA WEB</h1>
                 <h2>EXCLUSIVA CON TUS DATOS</h2>
-                <p>Te brindamos de manera gratuita tu propia weba la que podras acceder desde el primer momento que firmes el contrato! </p>
+                <p>Te brindamos de manera gratuita tu propia web a la que podras acceder desde el primer momento que firmes el contrato! </p>
                 <br>
-                <p>Tendra tus datos personalizados para que se comuniquen con vos sin intermediarios.</p>
+                <p id="contrato">Tendra tus datos personalizados para que se comuniquen con vos sin intermediarios.</p>
             </div>
 
           </div>
@@ -167,22 +171,23 @@ y transporte.</p>
       <!--Fin propia-web section -->
 
       <!--Inicio contrato section-->
-        <section class="contrato-section">
+        <section class="contrato-section" >
           <div class="contrato-titulo">
             <h1>CONTRATO</h1>
             <h2>Y MEDIOS DE PAGO</h2>
             <h3>Cómo empezar?</h3>
-            <p>Imprimite <a href="#">aquí el contrato de licencia</a> y complétalo y luego firmálo agregando tu nombre completo, apellido, DNI, y aclaración de su firma y luego nos lo envías con el comprobante de pago. </p>
+            <p>Imprimite <a href="#"><b>aquí el contrato de licencia</b></a> y complétalo y luego firmálo agregando tu nombre completo, apellido, DNI, y aclaración de su firma y luego nos lo envías con el comprobante de pago. </p>
             <h3>Cuánto hay que pagar?</h3>
             <p>La licencia tiene un costo de 76.000 pesos más iva.</p>
               <br>
-            <p>Podés optar por pagar el canon o costo de la licencia de una sóla vez en un sólo pago por transferencia Bancaria al siguiente CBU:</p> 
+            <p>Podés optar por pagar el canon o costo de la licencia de una sóla vez en un sólo pago por transferencia bancaria al siguiente CBU:</p> 
               <br>
             <p><b>00700207 30004034311085 (Sergio Saban)</b></p>
               <br>
-            <p>Podés optar por hacer el pago atraves de mercado pago y si tu tarjeta de crédito lo permite Podés hacerlo en <b>3/6 o 12 cuotas de 6900 pesos.</b></p>
+            <p>Podés optar por hacer el pago atraves de mercado pago y si tu tarjeta de crédito lo permite. Podés hacerlo en <b>3/6 o 12 cuotas de 6900 pesos.</b></p><br>
 
-            <p>Solo firmás el contrato y lo envías al email <b>sergiosaban@containersriodelaplata.com</b> junto con el comprobante de pago cumpliendo con los requisitos anteriormente citados y listo! Obtuviste tu licencia para sumarte a la red de licenciatarios de CRP Containers Río de la Plata y entrar al mundo de los containers maritimos y sus mil usos y servicios</p>
+            <p id="videos">Solo firmás el contrato y lo envías al email <a href="mailto:sergiosaban@containersriodelaplata.com"><b>sergiosaban@containersriodelaplata.com</b></a> junto con el comprobante de pago cumpliendo con los requisitos anteriormente citados y listo! 
+            Obtuviste tu licencia para sumarte a la red de licenciatarios de CRP Containers Río de la Plata y entrar al mundo de los containers maritimos y sus mil usos y servicios</p>
               
             
           </div>
@@ -192,6 +197,17 @@ y transporte.</p>
 
       <!--Fin contrato section-->
 
+ <!--Inicio slider section-->
+        <section class="slider-section">
+          <div class="">
+            <div class="slick-carousel">
+              <div><div class="slide-content"><iframe src="https://www.youtube.com/embed/O06hruIoUmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="frame"></iframe></div></div>
+              <div><div class="slide-content"><iframe src="https://www.youtube.com/embed/O06hruIoUmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="frame"></iframe></div></div>
+            </div>
+        </section>
+
+
+      <!--Fin contrato section-->
   <!--FOOTER-->
     <section class="footer-section">
         <div class="footer-logo">
@@ -211,7 +227,8 @@ y transporte.</p>
     </section>
   <!--FIN FOOTER-->
       
-      
+    
+
       
   <script>
     var dataID = 1;
@@ -239,5 +256,45 @@ y transporte.</p>
 
     
   </script>
+
+  <script>
+    var dataID = 1;
+    var toolSelected = 1;
+
+   
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 300) {
+            $(".nav-bar").addClass("sticky-nav-bar");
+        } else {
+            $(".nav-bar").removeClass("sticky-nav-bar");
+        }
+    });    
+  
+
+    function enableResponsive() {
+      if ($("#TopNav").hasClass("responsive")) {
+        $("#TopNav").removeClass("responsive");
+      }
+        else {
+          $("#TopNav").addClass("responsive");
+        }
+    };
+
+    
+  </script>
+
+   <script type="text/javascript">
+    $().ready(function(){
+  $('.slick-carousel').slick({
+    arrows: true,
+    centerPadding: "0px",
+    dots: true,
+    slidesToShow: 1,
+    infinite: false
+  });
+});
+  </script>
+
   </body>
 </html>

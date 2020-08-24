@@ -7,11 +7,12 @@
     </a>
     <nav class="site-navigation">
       <ul>
-        <li><a id="headerTools" class="link-pricing" href="herramientas">Inicio</a></li>
-        <li><a id="headerPricing" class="link-pricing" href="precios">Licenciatario</a></li>
-        <li><a id="headerSupportLnk" class="link-pricing" href="#soporte">Productos y servicios</a></li>
-        <li><a id="headerSupportLnk" class="link-pricing" href="#soporte">Flete</a></li>
-        <li><a id="headerSupportLnk" class="link-pricing" href="#soporte">Contacto</a></li>
+        <li><a id="headerTools" class="link-pricing" href="#inicio">Inicio</a></li>
+        <li><a id="headerPricing" class="link-pricing" href="#requisitos">Requisitos</a></li>
+        <li><a id="headerSupportLnk" class="link-pricing" href="#ventajas">Ventajas</a></li>
+        <li><a id="headerSupportLnk" class="link-pricing" href="#web">Pagina Web</a></li>
+        <li><a id="headerSupportLnk" class="link-pricing" href="#contrato">Contrato</a></li>
+        <li><a id="headerSupportLnk" class="link-pricing" href="#videos">Videos informativos</a></li>
       </ul>
       <div class="spinner-master2 responsive-menu-toggler">
         <input type="checkbox" id="spinner-form2" onclick="enableResponsive()" />
