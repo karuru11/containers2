@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-AR">
   <head>
-    <title>CRP Containers Rio de la Plata</title>
+    <title>CRP Containers Río de la Plata</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles-menu.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
@@ -48,14 +48,14 @@
 
 
                 <div class="hero-text">
-                    <h2>CRP Containers Rio de la plata</h2>
+                    <h2>CRP Containers Río de la plata</h2>
                      <h1>Ser licenciatario<br>
 				nunca fue tan<br>
-				facil!</h1>
+				fácil!</h1>
                 
                 <p id="requisitos">Ofrece servicios relacionados con la venta de
-Containers Maritimos, logistica, gestion aduanera,
-consolidado de carga segura, gestion de presupuestos
+Containers Marítimos, logística, gestión aduanera,
+consolidado de carga segura, gestión de presupuestos
 y transporte.</p>
                 </div>
                 
@@ -113,11 +113,11 @@ y transporte.</p>
                   </div>
                   <div class="ventajas-icono">
                     <img src="img/2.svg" alt="minimo costo">
-                    <p>Minimo costo de ingreso</p>
+                    <p>Mínimo costo de ingreso</p>
                   </div>
                   <div class="ventajas-icono">
                     <img src="img/3.svg" alt="empeza a ganar dinero">
-                    <p>Empezas a ganar dinero sin invertir tu capital</p>
+                    <p>Empezás a ganar dinero sin invertir tu capital</p>
                   </div>
                   <div class="ventajas-icono">
                     <img src="img/4.svg" alt="compra containers">
@@ -160,9 +160,9 @@ y transporte.</p>
             <div class="web-txt">
                 <h1>TU PROPIA WEB</h1>
                 <h2>EXCLUSIVA CON TUS DATOS</h2>
-                <p>Te brindamos de manera gratuita tu propia web a la que podras acceder desde el primer momento que firmes el contrato! </p>
+                <p>Te brindamos de manera gratuita tu propia web a la que podrás acceder desde el primer momento que firmes el contrato! </p>
                 <br>
-                <p id="contrato">Tendra tus datos personalizados para que se comuniquen con vos sin intermediarios.</p>
+                <p id="contrato">Tendrá tus datos personalizados para que se comuniquen con vos sin intermediarios.</p>
             </div>
 
           </div>
@@ -188,7 +188,7 @@ y transporte.</p>
             <p>Podés optar por hacer el pago atraves de mercado pago y si tu tarjeta de crédito lo permite. Podés hacerlo en <b>3/6 o 12 cuotas de 6900 pesos.</b></p><br>
 
             <p id="videos">Solo firmás el contrato y lo envías al email <a href="mailto:sergiosaban@containersriodelaplata.com"><b>sergiosaban@containersriodelaplata.com</b></a> junto con el comprobante de pago cumpliendo con los requisitos anteriormente citados y listo! 
-            Obtuviste tu licencia para sumarte a la red de licenciatarios de CRP Containers Río de la Plata y entrar al mundo de los containers maritimos y sus mil usos y servicios</p>
+            Obtuviste tu licencia para sumarte a la red de licenciatarios de CRP Containers Río de la Plata y entrar al mundo de los containers marítimos y sus mil usos y servicios</p>
               
             
           </div>
