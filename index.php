@@ -18,20 +18,21 @@
   <body>
   
       <!-- header -->
-    <div class="header-grey">
+      <div class="header-grey">
         <div class="header-grey-grid">
             <div class="logo-crp"><img src="img/logocrp.png"></div>
             <div class="header-datos">
-            <div><img src=""><p>operaciones@containersriodelaplata.com</p></div>
-            <div><img src=""><p>11-4802-5424</p></div>
-            <div><img src=""><p>9:00 AM - 18:00 PM</p></div>
+            <div class="icon"><img src="img/mail.svg" class="iconyellow"><p><a href="mailto:operaciones@containersriodelaplata.com" class="operaciones-a">operaciones@containersriodelaplata.com</a></p></div>
+            <div class="icon"><img src="img/phone.svg" class="iconyellow"><p><a href="https://wa.me11-4802-5424" class="operaciones-a">11-4802-5424</a></p></div>
+            <div class="icon"><img src="img/reloj.svg" class="iconyellow"><p>9:00 AM - 18:00 PM</p></div>
             </div>
+            
         </div>
     </div>
       
     <div>
       <div class="header-white-wrap pricing-wrap">
-          <?php include("includes/header-pricing.php"); ?>
+          <?php include("includes/header.php"); ?>
       </div>
     </div>
       <!-- fin de header -->
@@ -176,7 +177,7 @@ y transporte.</p>
             <h1>CONTRATO</h1>
             <h2>Y MEDIOS DE PAGO</h2>
             <h3>Cómo empezar?</h3>
-            <p>Imprimite <a href="#"><b>aquí el contrato de licencia</b></a> y complétalo y luego firmálo agregando tu nombre completo, apellido, DNI, y aclaración de su firma y luego nos lo envías con el comprobante de pago. </p>
+            <p>Imprimite <a href="https://www.containersriodelaplata.com/licencia/contrato.pdf" target="_blank"><b>aquí el contrato de licencia</b></a> y complétalo y luego firmálo agregando tu nombre completo, apellido, DNI, y aclaración de su firma y luego nos lo envías con el comprobante de pago. </p>
             <h3>Cuánto hay que pagar?</h3>
             <p>La licencia tiene un costo de 76.000 pesos más iva.</p>
               <br>
@@ -215,12 +216,13 @@ y transporte.</p>
         </div>
 
         <div class="footer-redes">
-          <img src="" alt="">
-          <img src="" alt="">
+          <a href=""><img src="img/fb.png" alt=""></a>
+          <a href=""><img src="img/tw.png" alt=""></a>
+          <a href=""><img src="img/ig.png" alt=""></a>
         </div>
 
         <div class="footer-frase">
-          <p>CONTAINERS RIO DE LA PLATA - SERGIO SABAN</p>
+          <p>CRP CONTAINERS RIO DE LA PLATA - SERGIO SABAN</p>
         </div>
 
 
@@ -237,7 +239,7 @@ y transporte.</p>
    
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
-        if (scroll >= 500) {
+        if (scroll >= 200) {
             $(".nav-bar").addClass("sticky-nav-bar");
         } else {
             $(".nav-bar").removeClass("sticky-nav-bar");
@@ -271,6 +273,14 @@ y transporte.</p>
         }
     });    
   
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 300) {
+            $(".header-grey").addClass("sticky-nav-bar2");
+        } else {
+            $(".header-grey").removeClass("sticky-nav-bar2");
+        }
+    });    
 
     function enableResponsive() {
       if ($("#TopNav").hasClass("responsive")) {

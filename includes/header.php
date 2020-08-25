@@ -2,7 +2,6 @@
   <header>
     <a href="/ar/">
       <div class="branding-logo pricing">
-          <img src="img/logocrp.png">
       </div>
     </a>
     <nav class="site-navigation">
@@ -10,9 +9,10 @@
         <li><a id="headerTools" class="link-pricing" href="#inicio">Inicio</a></li>
         <li><a id="headerPricing" class="link-pricing" href="#requisitos">Requisitos</a></li>
         <li><a id="headerSupportLnk" class="link-pricing" href="#ventajas">Ventajas</a></li>
-        <li><a id="headerSupportLnk" class="link-pricing" href="#web">Pagina Web</a></li>
+        <li><a id="headerSupportLnk" class="link-pricing" href="#web">Tu propia web</a></li>
         <li><a id="headerSupportLnk" class="link-pricing" href="#contrato">Contrato</a></li>
         <li><a id="headerSupportLnk" class="link-pricing" href="#videos">Videos informativos</a></li>
+
       </ul>
       <div class="spinner-master2 responsive-menu-toggler">
         <input type="checkbox" id="spinner-form2" onclick="enableResponsive()" />

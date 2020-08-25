@@ -33,6 +33,17 @@ body{
                grid-template-columns: auto auto auto;
                 align-items: center;}
 
+.iconyellow {width: 30px;
+    display: inline-block;}
+
+ .header-datos div p {display: inline-block;}
+
+ .icon {display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
 
 /* Wrapper */
 
@@ -63,8 +74,21 @@ body{
     box-shadow: 0 2px 6px rgba(0,0,0,.15);
     padding-top: 0;
     width: 100%;
+    top: 60px;
     height: 60px;
 }
+
+.header-grey.sticky-nav-bar2 {
+    position: fixed;
+    background-color: #222;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.15);
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+    padding-top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.operaciones-a {text-decoration:none; color:white;}
 
 .nav-bar header {
     max-width: 1080px;
@@ -78,32 +102,12 @@ body{
 .nav-bar .branding-logo {
     float: left;
     padding: 1rem;
-    background: url(../img/logo-rt-01.svg) no-repeat;
     background-position: center center;
     background-size: cover;
     width: 130px;
     height: 32px;
     margin-top: 20px;
     transition: box-shadow 0.5s ease;
-}
-
-.nav-bar.sticky-nav-bar .branding-logo {
-    background: url(../img/logo-rt-01.svg) no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 130px;
-    height: 32px;
-    margin-top: 13px;
-    transition: all 0.5s ease;
-}
-
-.nav-bar .branding-logo.pricing {
-    background: url(../img/logo-rt-01.svg) no-repeat;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-size: auto;
-    background-position: center center;
-    background-size: cover;
     display: none;
 }
 
@@ -131,7 +135,7 @@ body{
 
 .nav-bar .site-navigation li {
     margin-right: 4rem;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: #292828;
 }
 
@@ -367,7 +371,7 @@ nav.site-navigation ul li.learning-items-mobile ul li a {
 }
 
 @media only screen and (max-width: 900px) {
-    .nav-bar header {background-color: #292828}
+    .nav-bar .branding-logo {display: block;}
     .header-grey {display: none;}
     .nav-bar .branding-logo.pricing {display: block;}
     
@@ -391,20 +395,15 @@ nav.site-navigation ul li.learning-items-mobile ul li a {
         width: 100%;
         padding:0px 0px 0px;
         height: 75px;
-        
     }
-
-    .nav-bar.sticky-nav-bar{height: 75px;}
-
         .nav-bar .branding-logo {
-        background: url(../img/logo-rt-01.svg) no-repeat !important;
+        background: url(../img/logocrp.png) no-repeat !important;
         background-position: center center !important;
         background-size: cover !important;
-        width: 130px;
-        height: 32px;
-        margin-bottom: 10px;
+        width: 200px;
         margin-left: 10px;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
         .nav-bar.responsive .site-navigation, .nav-bar.responsive.sticky-nav-bar .site-navigation {
         background-color: #282828;
@@ -413,6 +412,10 @@ nav.site-navigation ul li.learning-items-mobile ul li a {
     }
         .nav-bar nav ul {
         padding: 0px;
+    }
+
+    .nav-bar .site-navigation{
+        padding-right: 0px;
     }
         .nav-bar .site-navigation li {
         margin-right: 0rem;
@@ -452,6 +455,9 @@ nav.site-navigation ul li.learning-items-mobile ul li a {
         .nav-bar nav ul li {
         display: none;
     }
+
+    .nav-bar.sticky-nav-bar {background-color: #222;top: 0px; height: 75px;}
+
         .nav-bar.responsive nav .responsive-menu-toggler, .nav-bar.sticky-nav-bar.responsive nav .responsive-menu-toggler, .nav-bar nav .responsive-menu-toggler {
         display: block;
         position: absolute;
@@ -463,6 +469,8 @@ nav.site-navigation ul li.learning-items-mobile ul li a {
         background-size: cover;
         transition: background 0.2s ease;
     }
+
+    
        .nav-bar li.cta-menu.log-in a, .nav-bar li.cta-menu a {
         display: block;
         text-align: center;

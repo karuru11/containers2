@@ -2,7 +2,6 @@
 $nombre = isset ($_POST['nombre']) ? $_POST['nombre'] : '';
 $email = isset ($_POST['email']) ? $_POST['email'] : '';
 $asunto = isset ($_POST['asunto']) ? $_POST['asunto'] : '';
-$motivo = isset ($_POST['motivo']) ? $_POST['motivo'] : '';
 $telefono = isset ($_POST['telefono']) ? $_POST['telefono'] : '';
 $comentarios = isset ($_POST['comentarios']) ? $_POST['comentarios'] : '';
 
@@ -13,7 +12,6 @@ $contenido = '
             <p><strong>Nombre y apellido:</strong> '.$nombre.'</p>
             <p><strong>Correo electrónico:</strong> '.$email.'</p>
             <p><strong>Telefono:</strong> '.$telefono.'</p>
-            <p><strong>Motivo:</strong> '.$motivo.'</p>
             <p><strong>Mensaje:</strong> '.$comentarios.'</p>
                                    ';
                 
