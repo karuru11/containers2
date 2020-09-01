@@ -180,6 +180,112 @@
 
 /*fin ventajas section*/
 
+/*inicio precios*/
+
+    .precios-section {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding-bottom: 40px;}
+
+    .cuadro-precios{
+        display: grid;
+        grid-template-columns: 23% 17% 15% 22% 20%;
+        padding: 40px 0px 20px 0px;
+    }
+
+    .titulo-columna {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 10px 0px;
+        font-weight: 1000;
+    }
+
+    .img-cuadro1{
+        display: inline-block;
+        width: 40px;
+        vertical-align: middle;
+    }
+
+    .img-cuadro2{
+        display: inline-block;
+        width: 60px;
+        vertical-align: middle;
+    }
+
+    .img-cuadro3{
+        display: inline-block;
+        width: 50px;
+        vertical-align: middle;
+    }
+
+    .img-cuadro4{
+        display: inline-block;
+        width: 60px;
+        vertical-align: middle;
+    }
+
+    .p-columna {text-align:center;
+        vertical-align: middle;
+        padding: 10px 0px;}
+
+    .blanco{
+        background-color: #ffffff;
+        border-top: 2px solid #ffc107;
+        border-left: 1px solid #fcdd90;
+        border-right: 1px solid #fcdd90;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .blanco-borde2{
+        background-color: #ffffff;
+        border-top: 2px solid #ffc107;
+        border-left: 1px solid #fcdd90;
+        border-right: 2px solid #ffc107;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gris {
+        background-color: #f9f9f9;
+        border-top: 2px solid #ffc107;
+        border-bottom: 1px solid #ffc107;
+        border-left: 1px solid #fcdd90;
+        border-right: 1px solid #fcdd90;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gris-borde1 {
+        background-color: #f9f9f9;
+        border-top: 2px solid #ffc107;
+        border-bottom: 1px solid #ffc107;
+        border-left: 2px solid #ffc107;
+        border-right: 2px solid #ffc107;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+    .gris-borde2{
+        background-color: #f9f9f9;
+        border-top: 2px solid #ffc107;
+        border-bottom: 1px solid #ffc107;
+        border-left: 1px solid #fcdd90;
+        border-right: 2px solid #ffc107;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .cuadro-precios-mobile {display: none;}
+
+/*fin precios*/
+
 /*inicio web section*/
 
     .propia-web{
@@ -429,4 +535,39 @@
     .imgmercadopago {width: 40%;}
 
     .imgbancogalicia {width: 40%;}
+
+    .cuadro-precios-mobile {
+        display: grid;
+        grid-template-columns: 55% 45%;
+    }
+
+    .cuadro-precios {display: none;}
+
+    .cuadro-precios-mobile {
+        padding: 0px 20px;
+        margin-bottom: 60px;
+    }
+
+    .titulo-columna{padding: 5px 10px;}
+    
+    .blanco-mobile {
+        background-color: #ffffff;
+        border-top: 1px solid #ffc107;
+        border-left: 1px solid #fcdd90;
+        border-right: 2px solid #ffc107;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gris-mobile2 {
+        background-color: #ffffff;
+        border-top: 2px solid #ffc107;
+        border-left: 2px solid #ffc107;
+        border-right: 2px solid #ffc107;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 20px;
+    }
 }

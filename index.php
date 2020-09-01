@@ -136,7 +136,7 @@ y transporte.</p>
                     <img src="img/5.svg" alt="compra donde vos queres">
                     <p>Tenes libertad de comprar donde vos querés</p>
                   </div>
-                  <div class="ventajas-icono">
+                  <div class="ventajas-icono" id="precios">
                     <img src="img/6.svg" alt="libertad horaria">
                     <p>Tenés libertad horaria</p>
                   </div>
@@ -159,30 +159,284 @@ y transporte.</p>
 
       <!--Fin ventajas section-->
 
-      <!--inicio propia-web section -->
-        <section class="propia-web" id="web">
-          <div class="web-grid">
-            <div class="web-img">
-              <img src="img/web.png" alt="imagen de la web">
-            </div>
-
-            <div class="web-txt">
-                <h1>TU PROPIA WEB</h1>
-                <h2>EXCLUSIVA CON TUS DATOS</h2>
-                <p>Te brindamos de manera gratuita tu propia web a la que podrás acceder desde el primer momento que firmes el contrato! </p>
-                <br>
-                <p id="contrato">Tendrá tus datos personalizados para que se comuniquen con vos sin intermediarios.<br><br>
-              <a href="https://www.demo.containersriodelaplata.com/" target="_blank" class="hrefDemo">Accede aqui para ver como seria la web!</a></p>
-            </div>
-
+      <!--inicio precio section-->
+      <section class="precios-section" >
+          <div class="requisitos-txt">
+            <h1>PRECIOS</h1>
+            <h2>CRP <b>CONTAINERS</b></h2>
+            <p>El presente cuadro lo exhibimos a modo de ejemplo a los candidatos a ser licenciatarios que quieren saber  cuánto
+ganarían por cada contenedor que venden, y dado que  los precios y la ganancia que reportan los containers es fluctuante
+y va variando según la demanda y oferta puede ocurrir que no es siempre la misma  la ganancia obtenida pudiendo
+reducirse o aumentarse según cómo se comporte el mercado interno e internacional.</p>
           </div>
 
-        </section>
+          <div class="cuadro-precios">
+            <!-- Row 1 -->
+            <div class="gris-borde1"></div>
 
-      <!--Fin propia-web section -->
+            <div class="gris">
+              <img src="img/precio.svg" alt="Precio de compra" class="img-cuadro1">
+              <p class="titulo-columna">Precio<br>de compra</p>
+            </div>
 
-      <!--Inicio contrato section-->
-        <section class="contrato-section" >
+            <div class="gris">
+              <img src="img/container.svg" alt="Medidas" class="img-cuadro2">
+              <p class="titulo-columna">Medidas</p>
+            </div>
+
+            <div class="gris">
+              <img src="img/dinero.svg" alt="Precio sugerido de venta al público" class="img-cuadro3">
+              <p class="titulo-columna" style="color:#0b2999;">Precio sugerido<br>de venta al público</p>
+            </div>
+
+            <div class="gris-borde2">
+              <img src="img/dinerocontainer.svg" alt="Su ganancia por contenedor" class="img-cuadro4">
+              <p class="titulo-columna" >Su ganancia<br>por contenedor</p>
+            </div>
+
+
+
+            <!-- Row 2 -->
+            <div class="gris-borde1">
+              <p class="titulo-columna">Contenedor usado<br>
+              de 20 pies</p>
+            </div>
+
+            <div class="blanco">
+              <p class="p-columna">$ 2.300 dólares<br>
+            más iva</p>
+            </div>
+
+            <div class="blanco">
+              <p class="p-columna">6 m de largo x<br>
+              2,40 m de ancho x<br>
+              2,40 m de alto</p>
+            </div>
+
+            <div class="blanco">
+              <p class="p-columna">$ 2.600 dólares más iva</p>
+            </div>
+
+            <div class="blanco-borde2">
+              <p class="p-columna">$ 300 dólares más iva</p>
+            </div>
+
+            
+
+            <!-- Row 3 -->
+
+            <div class="gris-borde1">
+              <p class="titulo-columna">Contenedor usado<br>
+              de 40 pies</p>
+            </div>
+
+            <div class="blanco">
+              <p class="p-columna">$ 2.800 dólares<br>
+más iva</p>
+            </div>
+
+            <div class="blanco">
+              <p class="p-columna">12 m de largo x<br>
+              2,40 m de ancho x<br>
+              2,40 m de alto</p>
+            </div>
+
+            <div class="blanco">
+              <p class="p-columna">$ 3.200 dólares más iva</p>
+            </div>
+
+            <div class="blanco-borde2">
+              <p class="p-columna">$ 400 dólares más iva</p>
+            </div>
+
+
+
+
+            <!-- Row 4 -->
+            <div class="gris-borde1" style="border-bottom: 2px solid #ffc107;">
+              <p class="titulo-columna">Contenedores de 40 pies<br>
+jumbo o HC usados</p>
+            </div>
+
+            <div class="blanco" style="border-bottom: 2px solid #ffc107;">
+              <p class="p-columna">$ 3.100 dólares<br>
+más iva</p>
+            </div>
+
+            <div class="blanco" style="border-bottom: 2px solid #ffc107;">
+              <p class="p-columna">12 m de largo x<br>
+              2,40 m de ancho x<br>
+              2,90 m de alto</p>
+            </div>
+
+            <div class="blanco" style="border-bottom: 2px solid #ffc107;">
+              <p class="p-columna">$ 3.500 dólares más iva</p>
+            </div>
+
+            <div class="blanco-borde2" style="border-bottom: 2px solid #ffc107;">
+              <p class="p-columna">$ 400 dólares más iva</p>
+            </div>
+          </div>
+
+          <div class="cuadro-precios-mobile">
+            <!-- Row 1 Mobile-->
+            <div class="gris-borde1"></div>
+
+            <div class="gris" style="border-right: 2px solid #ffc107;">
+              <p class="titulo-columna">Contenedor usado<br>
+              de 20 pies</p>
+            </div>
+            
+            <div class="gris-mobile2" >
+              <img src="img/precio.svg" alt="Precio de compra" class="img-cuadro1">
+              <p class="titulo-columna" >Precio<br>de compra</p>
+            </div>
+
+            <div class="blanco-mobile">
+              <p class="p-columna">$ 2.300 dólares<br>
+            más iva</p>
+            </div>
+
+            <div class="gris-mobile2">
+              <img src="img/container.svg" alt="Medidas" class="img-cuadro2">
+              <p class="titulo-columna">Medidas</p>
+            </div>
+
+            <div class="blanco-mobile">
+              <p class="p-columna">6 m de largo x<br>
+              2,40 m de ancho x<br>
+              2,40 m de alto</p>
+            </div>
+
+            <div class="gris-mobile2">
+              <img src="img/dinero.svg" alt="Precio sugerido de venta al público" class="img-cuadro3">
+              <p class="titulo-columna" style="color:#0b2999;">Precio sugerido<br>de venta al público</p>
+            </div>
+
+            <div class="blanco-mobile">
+              <p class="p-columna">$ 2.600 dólares más iva</p>
+            </div>
+
+            <div class="gris-mobile2" style="border-bottom: 2px solid #ffc107;">
+              <img src="img/dinerocontainer.svg" alt="Su ganancia por contenedor" class="img-cuadro4">
+              <p class="titulo-columna">Su ganancia<br>por contenedor</p>
+            </div>
+
+            <div class="blanco-mobile" style="border-bottom: 2px solid #ffc107;">
+              <p class="p-columna">$ 300 dólares más iva</p>
+            </div>
+          </div>
+
+
+
+          <div class="cuadro-precios-mobile">
+            <!-- Row 2 Mobile-->
+            <div class="gris-borde1"></div>
+
+            <div class="gris" style="border-right: 2px solid #ffc107;">
+              <p class="titulo-columna">Contenedor usado<br>
+              de 40 pies</p>
+            </div>
+            
+            <div class="gris-mobile2" >
+              <img src="img/precio.svg" alt="Precio de compra" class="img-cuadro1">
+              <p class="titulo-columna" >Precio<br>de compra</p>
+            </div>
+
+            <div class="blanco-mobile">
+              <p class="p-columna">$ 2.800 dólares<br>
+            más iva</p>
+            </div>
+
+            <div class="gris-mobile2">
+              <img src="img/container.svg" alt="Medidas" class="img-cuadro2">
+              <p class="titulo-columna">Medidas</p>
+            </div>
+
+            <div class="blanco-mobile">
+              <p class="p-columna">12 m de largo x<br>
+              2,40 m de ancho x<br>
+              2,40 m de alto</p>
+            </div>
+
+            <div class="gris-mobile2">
+              <img src="img/dinero.svg" alt="Precio sugerido de venta al público" class="img-cuadro3">
+              <p class="titulo-columna" style="color:#0b2999;">Precio sugerido<br>de venta al público</p>
+            </div>
+
+            <div class="blanco-mobile">
+              <p class="p-columna">$ 3.200 dólares más iva</p>
+            </div>
+
+            <div class="gris-mobile2" style="border-bottom: 2px solid #ffc107;">
+              <img src="img/dinerocontainer.svg" alt="Su ganancia por contenedor" class="img-cuadro4">
+              <p class="titulo-columna">Su ganancia<br>por contenedor</p>
+            </div>
+
+            <div class="blanco-mobile" style="border-bottom: 2px solid #ffc107;">
+              <p class="p-columna">$ 400 dólares más iva</p>
+            </div>
+          </div>
+
+
+
+          <div class="cuadro-precios-mobile">
+            <!-- Row 3 Mobile-->
+            <div class="gris-borde1"></div>
+
+            <div class="gris" style="border-right: 2px solid #ffc107;">
+              <p class="titulo-columna">Contenedores de 40 pies<br>
+              jumbo o HC usados</p>
+            </div>
+            
+            <div class="gris-mobile2" >
+              <img src="img/precio.svg" alt="Precio de compra" class="img-cuadro1">
+              <p class="titulo-columna" >Precio<br>de compra</p>
+            </div>
+
+            <div class="blanco-mobile">
+              <p class="p-columna">$ 3.100 dólares<br>
+            más iva</p>
+            </div>
+
+            <div class="gris-mobile2">
+              <img src="img/container.svg" alt="Medidas" class="img-cuadro2">
+              <p class="titulo-columna">Medidas</p>
+            </div>
+
+            <div class="blanco-mobile">
+              <p class="p-columna">12 m de largo x<br>
+              2,40 m de ancho x<br>
+              2,90 m de alto</p>
+            </div>
+
+            <div class="gris-mobile2">
+              <img src="img/dinero.svg" alt="Precio sugerido de venta al público" class="img-cuadro3">
+              <p class="titulo-columna" style="color:#0b2999;">Precio sugerido<br>de venta al público</p>
+            </div>
+
+            <div class="blanco-mobile">
+              <p class="p-columna">$ 3.500 dólares más iva</p>
+            </div>
+
+            <div class="gris-mobile2" style="border-bottom: 2px solid #ffc107;">
+              <img src="img/dinerocontainer.svg" alt="Su ganancia por contenedor" class="img-cuadro4">
+              <p class="titulo-columna">Su ganancia<br>por contenedor</p>
+            </div>
+
+            <div class="blanco-mobile" style="border-bottom: 2px solid #ffc107;">
+              <p class="p-columna">$ 400 dólares más iva</p>
+            </div>
+          </div>
+
+          <p style="color:#8e8e8e; font-size:1em; padding: 0px 20px;" id="contrato">- Estos precios son de contenedores Nacionalizados liberados de Aduana.<br><br>
+          - Precios indicados en dólares a dólar oficial tipo de cambio vendedor Banco Nación Iva del 10,5%</p>
+      </section>
+
+      <!--fin precio section-->
+
+       <!--Inicio contrato section-->
+       <section class="contrato-section" >
           <div class="contrato-titulo">
             <h1>CONTRATO</h1>
             <h2>Y MEDIOS DE PAGO</h2>
@@ -198,7 +452,7 @@ y transporte.</p>
             <p>Podés optar por hacer el pago atraves de <a href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=622175560-8e3de080-1c61-4a19-990d-49a04148e816" target="_blank"><img src="img/mercadopago.png" alt="mercadopago" class="imgmercadopago"></a> y si tu tarjeta de crédito lo permite.  <a href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=622175560-8e3de080-1c61-4a19-990d-49a04148e816" target="_blank">Podés hacerlo en <b>3/6 o 12 cuotas de $6.900 pesos.</b></a><br>
             <br><i>Tiene un costo $76.000 pesos más iva.</i></p><br>
 
-            <p id="videos">Solo firmás el contrato y lo envías al email <a href="mailto:sergiosaban@containersriodelaplata.com"><b>sergiosaban@containersriodelaplata.com</b></a> junto con el comprobante de pago cumpliendo con los requisitos anteriormente citados y listo! 
+            <p >Solo firmás el contrato y lo envías al email <a href="mailto:sergiosaban@containersriodelaplata.com"><b>sergiosaban@containersriodelaplata.com</b></a> junto con el comprobante de pago cumpliendo con los requisitos anteriormente citados y listo! 
             Obtuviste tu licencia para sumarte a la red de licenciatarios de CRP Containers Río de la Plata y entrar al mundo de los containers marítimos y sus mil usos y servicios</p>
               
             
@@ -208,6 +462,30 @@ y transporte.</p>
 
 
       <!--Fin contrato section-->
+
+      <!--inicio propia-web section -->
+        <section class="propia-web" id="web">
+          <div class="web-grid">
+            <div class="web-img">
+              <img src="img/web.png" alt="imagen de la web">
+            </div>
+
+            <div class="web-txt">
+                <h1>TU PROPIA WEB</h1>
+                <h2>EXCLUSIVA CON TUS DATOS</h2>
+                <p>Te brindamos de manera gratuita tu propia web a la que podrás acceder desde el primer momento que firmes el contrato! </p>
+                <br>
+                <p id="videos">Tendrá tus datos personalizados para que se comuniquen con vos sin intermediarios.<br><br>
+              <a href="https://www.demo.containersriodelaplata.com/" target="_blank" class="hrefDemo">Accede aqui para ver como seria la web!</a></p>
+            </div>
+
+          </div>
+
+        </section>
+
+      <!--Fin propia-web section -->
+
+     
 
  <!--Inicio slider section-->
  <div class="slider-wrapper">
@@ -247,9 +525,9 @@ y transporte.</p>
         </div>
 
         <div class="footer-redes">
-          <a href=""><img src="img/fb.png" alt=""></a>
-          <a href=""><img src="img/tw.png" alt=""></a>
-          <a href=""><img src="img/ig.png" alt=""></a>
+          <a href="https://www.facebook.com/profile.php?id=100013954398981"><img src="img/fb.png" alt=""></a>
+          <a href="https://twitter.com/conteiners"><img src="img/tw.png" alt=""></a>
+          <a href="https://www.instagram.com/crp_containers/"><img src="img/ig.png" alt=""></a>
         </div>
 
         <div class="footer-frase">
