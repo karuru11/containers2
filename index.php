@@ -8,15 +8,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <script src="/assets/js/navbar.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-      <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="32x32">
+
 
   </head>
   <body>
-  
+  <a href="https://wa.me/5491158288783" class="float" target="_blank">
+
+<i class="fa fa-whatsapp my-float"></i>
+
+</a>
       <!-- header -->
       <div class="header-grey">
         <div class="header-grey-grid">
@@ -162,7 +171,8 @@ y transporte.</p>
                 <h2>EXCLUSIVA CON TUS DATOS</h2>
                 <p>Te brindamos de manera gratuita tu propia web a la que podrás acceder desde el primer momento que firmes el contrato! </p>
                 <br>
-                <p id="contrato">Tendrá tus datos personalizados para que se comuniquen con vos sin intermediarios.</p>
+                <p id="contrato">Tendrá tus datos personalizados para que se comuniquen con vos sin intermediarios.<br><br>
+              <a href="https://www.demo.containersriodelaplata.com/" target="_blank" class="hrefDemo">Accede aqui para ver como seria la web!</a></p>
             </div>
 
           </div>
@@ -179,13 +189,14 @@ y transporte.</p>
             <h3>Cómo empezar?</h3>
             <p>Imprimite <a href="https://www.containersriodelaplata.com/licencia/contrato.pdf" target="_blank"><b>aquí el contrato de licencia</b></a> y complétalo y luego firmálo agregando tu nombre completo, apellido, DNI, y aclaración de su firma y luego nos lo envías con el comprobante de pago. </p>
             <h3>Cuánto hay que pagar?</h3>
-            <p>La licencia tiene un costo de 76.000 pesos más iva.</p>
+            <p>La licencia tiene un costo de <b>$76.000 pesos más iva.</b></p>
               <br>
-            <p>Podés optar por pagar el canon o costo de la licencia de una sóla vez en un sólo pago por transferencia bancaria al siguiente CBU:</p> 
+            <p>Podés optar por pagar el canon o costo de la licencia de una sóla vez en <b>un sólo pago por transferencia bancaria al siguiente CBU:</b></p> 
               <br>
-            <p><b>00700207 30004034311085 (Sergio Saban)</b></p>
+            <p><img src="img/bancogalicia.png" alt="bancogalicia" class="imgbancogalicia"><b>00700207 30004034311085 (Sergio Saban)</b></p>
               <br>
-            <p>Podés optar por hacer el pago atraves de mercado pago y si tu tarjeta de crédito lo permite. Podés hacerlo en <b>3/6 o 12 cuotas de 6900 pesos.</b></p><br>
+            <p>Podés optar por hacer el pago atraves de <a href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=622175560-8e3de080-1c61-4a19-990d-49a04148e816" target="_blank"><img src="img/mercadopago.png" alt="mercadopago" class="imgmercadopago"></a> y si tu tarjeta de crédito lo permite.  <a href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=622175560-8e3de080-1c61-4a19-990d-49a04148e816" target="_blank">Podés hacerlo en <b>3/6 o 12 cuotas de $6.900 pesos.</b></a><br>
+            <br><i>Tiene un costo $76.000 pesos más iva.</i></p><br>
 
             <p id="videos">Solo firmás el contrato y lo envías al email <a href="mailto:sergiosaban@containersriodelaplata.com"><b>sergiosaban@containersriodelaplata.com</b></a> junto con el comprobante de pago cumpliendo con los requisitos anteriormente citados y listo! 
             Obtuviste tu licencia para sumarte a la red de licenciatarios de CRP Containers Río de la Plata y entrar al mundo de los containers marítimos y sus mil usos y servicios</p>
@@ -199,16 +210,36 @@ y transporte.</p>
       <!--Fin contrato section-->
 
  <!--Inicio slider section-->
-        <section class="slider-section">
-          <div class="">
-            <div class="slick-carousel">
-              <div><div class="slide-content"><iframe src="https://www.youtube.com/embed/O06hruIoUmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="frame"></iframe></div></div>
-              <div><div class="slide-content"><iframe src="https://www.youtube.com/embed/O06hruIoUmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="frame"></iframe></div></div>
-            </div>
-        </section>
+ <div class="slider-wrapper">
+ <div><h1>VIDEOS INFORMATIVOS</h1>
+ <p>Sergio Saban titular de la licencia CRP Containers Rio de la plata explica en 4 breves videos, que podés hacer si querés trabajar y ganar dinero!</p></div>
+ <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:0px auto 50px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/1.PNG" alt="1 - Presentación (CRP Containers)"  title="1 - Presentación (CRP Containers)" />
+                <video preload="none" src="https://www.youtube.com/embed/aG835ylK7Kg" ></video>
+                </li>
+                <li><img src="images/2.png" alt="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)"  title="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)" />
+                <video preload="none" src="https://youtu.be/R5IkpnAgYp0" ></video>
+                </li>
+                <li><img src="images/3.png" alt="3 - En que consiste la Licencia (CRP Containers Rio de la plata)"  title="3 - En que consiste la Licencia (CRP Containers Rio de la plata)" />
+                <video preload="none" src="https://www.youtube.com/embed/1ppn9wKQFDk" ></video>
+                </li>
+                <li><img src="images/4.png" alt="4 - Proyecto laboral (CRP Containers Rio de la plata)"  title="4 - Proyecto laboral (CRP Containers Rio de la plata)" />
+                <video preload="none" src="https://www.youtube.com/embed/YGaPYcKUuy4" ></video>
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/1-tn.PNG" alt="1 - Presentación (CRP Containers)" title="1 - Presentación (CRP Containers)" /></li>
+                <li><img src="images/2-tn.png" alt="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)" title="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)" /></li>
+                <li><img src="images/3-tn.png" alt="3 - En que consiste la Licencia (CRP Containers Rio de la plata)" title="3 - En que consiste la Licencia (CRP Containers Rio de la plata)" /></li>
+                <li><img src="images/4-tn.png" alt="4 - Proyecto laboral (CRP Containers Rio de la plata)" title="4 - Proyecto laboral (CRP Containers Rio de la plata)" /></li>
+            </ul>
+        </div>
+    </div>
+    </div>
 
-
-      <!--Fin contrato section-->
+      <!--Fin slider section-->
   <!--FOOTER-->
     <section class="footer-section">
         <div class="footer-logo">
@@ -293,18 +324,28 @@ y transporte.</p>
 
     
   </script>
+  <script>
+ $('.slider-for').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   fade: true,
+   asNavFor: '.slider-nav'
+ });
+ $('.slider-nav').slick({
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   asNavFor: '.slider-for',
+   dots: true,
+   focusOnSelect: true
+ });
 
-   <script type="text/javascript">
-    $().ready(function(){
-  $('.slick-carousel').slick({
-    arrows: true,
-    centerPadding: "0px",
-    dots: true,
-    slidesToShow: 1,
-    infinite: false
-  });
-});
-  </script>
+ $('a[data-slide]').click(function(e) {
+   e.preventDefault();
+   var slideno = $(this).data('slide');
+   $('.slider-nav').slick('slickGoTo', slideno - 1);
+ });
+</script>
 
   </body>
 </html>
