@@ -57,15 +57,9 @@
 
 
                 <div class="hero-text">
-                    <h2>CRP Containers Río de la plata</h2>
-                     <h1>Ser licenciatario<br>
-				nunca fue tan<br>
-				fácil!</h1>
+                     <h1>Bienvenidos a CRP<br>Containers Rio de la Plata!</h1>
                 
-                <p id="requisitos">Ofrece servicios relacionados con la venta de
-Containers Marítimos, logística, gestión aduanera,
-consolidado de carga segura, gestión de presupuestos
-y transporte.</p>
+                <p id="requisitos">Somos la red de empresas vendedoras de contenedores marítimos legales en la República Argentina. Para pertenecer lo invitamos a ser licenciatarios!</p>
                 </div>
                 
                 
@@ -81,8 +75,13 @@ y transporte.</p>
         <section class="section-requisitos" id="ventajas"> 
           <div class="requisitos-grid">
             <div class="requisitos-txt">
-                <h1>REQUISITOS</h1>
+                 <h1>REQUISITOS</h1>
                 <h2>PARA SER <b>LICENCIATARIO</b></h2>
+                <p><b style="color: #292828;">Para empresas:</b></p>
+                <p>- Tener CUIT</p>
+                <p>- Firmar y enviar el contrato por email</p>
+                <p>- Pagar el canon y enviar el comprobante por email</p><br>
+                <p><b style="color: #292828;">Para individuos o personas físicas:</b></p>
                 <p>- Ser mayor de 21 años</p>
                 <p>- Enviar foto del DNI (Frente y dorso)</p>
                 <p>- Tener CUIT</p>
@@ -90,6 +89,7 @@ y transporte.</p>
                 <p>- Pagar el canon y enviar el comprobante por email</p>
                 <p>- No tener antecedentes penales</p>
                 <p>- Firmar el contrato</p>
+
 
             </div>
           
@@ -110,10 +110,22 @@ y transporte.</p>
       <!--Fin requisitos section -->
 
       <!--inicio ventajas section-->
+
+ <section class="ventajas-section">
+          <div class="ventajas-txt">
+                      <h1>VENTAJAS</h1>
+                      <h2>DE SER LICENCIATARIO<br><b>PARA EMPRESAS</b></h2>
+                  </div>
+                  <div class="ventajas-empresas">
+                    <img src="img/red.svg" alt="confianza">
+                    <p>Los licenciatarios integrarán una RED que comercializa y alquila contenedores marítimos, casas containers , módulos habitables y afines “legales” Nacionalizados en la República Argentina , lo cual le brindará la confianza a los compradores de que no estén comprando contenedores en infracción o vencidos o de origen y procedencia dudosa.</p>
+              </div>
+
+          </section>
           <section class="ventajas-section">
           <div class="ventajas-txt">
                       <h1>VENTAJAS</h1>
-                      <h2>DE SER <b>LICENCIATARIO</b></h2>
+                       <h2>DE SER LICENCIATARIO<br><b>PARA INDIVIDUOS O PERSONAS FÍSICAS</b></h2>
                   </div>
               <div class="ventajas-grid"> 
                   <div class="ventajas-icono">
@@ -131,10 +143,6 @@ y transporte.</p>
                   <div class="ventajas-icono">
                     <img src="img/4.svg" alt="compra containers">
                     <p>Comprás los containers con el pago anticipado del cliente.</p>
-                  </div>
-                  <div class="ventajas-icono">
-                    <img src="img/5.svg" alt="compra donde vos queres">
-                    <p>Tenes libertad de comprar donde vos querés</p>
                   </div>
                   <div class="ventajas-icono" id="precios">
                     <img src="img/6.svg" alt="libertad horaria">
@@ -159,282 +167,6 @@ y transporte.</p>
 
       <!--Fin ventajas section-->
 
-      <!--inicio precio section-->
-      <section class="precios-section" >
-          <div class="requisitos-txt">
-            <h1>PRECIOS</h1>
-            <h2>CRP <b>CONTAINERS</b></h2>
-            <p>El presente cuadro lo exhibimos a modo de ejemplo a los candidatos a ser licenciatarios que quieren saber  cuánto
-ganarían por cada contenedor que venden, y dado que  los precios y la ganancia que reportan los containers es fluctuante
-y va variando según la demanda y oferta puede ocurrir que no es siempre la misma  la ganancia obtenida pudiendo
-reducirse o aumentarse según cómo se comporte el mercado interno e internacional.</p>
-          </div>
-
-          <div class="cuadro-precios">
-            <!-- Row 1 -->
-            <div class="gris-borde1"></div>
-
-            <div class="gris">
-              <img src="img/precio.svg" alt="Precio de compra" class="img-cuadro1">
-              <p class="titulo-columna">Precio<br>de compra</p>
-            </div>
-
-            <div class="gris">
-              <img src="img/container.svg" alt="Medidas" class="img-cuadro2">
-              <p class="titulo-columna">Medidas</p>
-            </div>
-
-            <div class="gris">
-              <img src="img/dinero.svg" alt="Precio sugerido de venta al público" class="img-cuadro3">
-              <p class="titulo-columna" style="color:#0b2999;">Precio sugerido<br>de venta al público</p>
-            </div>
-
-            <div class="gris-borde2">
-              <img src="img/dinerocontainer.svg" alt="Su ganancia por contenedor" class="img-cuadro4">
-              <p class="titulo-columna" >Su ganancia<br>por contenedor</p>
-            </div>
-
-
-
-            <!-- Row 2 -->
-            <div class="gris-borde1">
-              <p class="titulo-columna">Contenedor usado<br>
-              de 20 pies</p>
-            </div>
-
-            <div class="blanco">
-              <p class="p-columna">$ 2.300 dólares<br>
-            más iva</p>
-            </div>
-
-            <div class="blanco">
-              <p class="p-columna">6 m de largo x<br>
-              2,40 m de ancho x<br>
-              2,40 m de alto</p>
-            </div>
-
-            <div class="blanco">
-              <p class="p-columna">$ 2.600 dólares más iva</p>
-            </div>
-
-            <div class="blanco-borde2">
-              <p class="p-columna">$ 300 dólares más iva</p>
-            </div>
-
-            
-
-            <!-- Row 3 -->
-
-            <div class="gris-borde1">
-              <p class="titulo-columna">Contenedor usado<br>
-              de 40 pies</p>
-            </div>
-
-            <div class="blanco">
-              <p class="p-columna">$ 2.800 dólares<br>
-más iva</p>
-            </div>
-
-            <div class="blanco">
-              <p class="p-columna">12 m de largo x<br>
-              2,40 m de ancho x<br>
-              2,40 m de alto</p>
-            </div>
-
-            <div class="blanco">
-              <p class="p-columna">$ 3.200 dólares más iva</p>
-            </div>
-
-            <div class="blanco-borde2">
-              <p class="p-columna">$ 400 dólares más iva</p>
-            </div>
-
-
-
-
-            <!-- Row 4 -->
-            <div class="gris-borde1" style="border-bottom: 2px solid #ffc107;">
-              <p class="titulo-columna">Contenedores de 40 pies<br>
-jumbo o HC usados</p>
-            </div>
-
-            <div class="blanco" style="border-bottom: 2px solid #ffc107;">
-              <p class="p-columna">$ 3.100 dólares<br>
-más iva</p>
-            </div>
-
-            <div class="blanco" style="border-bottom: 2px solid #ffc107;">
-              <p class="p-columna">12 m de largo x<br>
-              2,40 m de ancho x<br>
-              2,90 m de alto</p>
-            </div>
-
-            <div class="blanco" style="border-bottom: 2px solid #ffc107;">
-              <p class="p-columna">$ 3.500 dólares más iva</p>
-            </div>
-
-            <div class="blanco-borde2" style="border-bottom: 2px solid #ffc107;">
-              <p class="p-columna">$ 400 dólares más iva</p>
-            </div>
-          </div>
-
-          <div class="cuadro-precios-mobile">
-            <!-- Row 1 Mobile-->
-            <div class="gris-borde1"></div>
-
-            <div class="gris" style="border-right: 2px solid #ffc107;">
-              <p class="titulo-columna">Contenedor usado<br>
-              de 20 pies</p>
-            </div>
-            
-            <div class="gris-mobile2" >
-              <img src="img/precio.svg" alt="Precio de compra" class="img-cuadro1">
-              <p class="titulo-columna" >Precio<br>de compra</p>
-            </div>
-
-            <div class="blanco-mobile">
-              <p class="p-columna">$ 2.300 dólares<br>
-            más iva</p>
-            </div>
-
-            <div class="gris-mobile2">
-              <img src="img/container.svg" alt="Medidas" class="img-cuadro2">
-              <p class="titulo-columna">Medidas</p>
-            </div>
-
-            <div class="blanco-mobile">
-              <p class="p-columna">6 m de largo x<br>
-              2,40 m de ancho x<br>
-              2,40 m de alto</p>
-            </div>
-
-            <div class="gris-mobile2">
-              <img src="img/dinero.svg" alt="Precio sugerido de venta al público" class="img-cuadro3">
-              <p class="titulo-columna" style="color:#0b2999;">Precio sugerido<br>de venta al público</p>
-            </div>
-
-            <div class="blanco-mobile">
-              <p class="p-columna">$ 2.600 dólares más iva</p>
-            </div>
-
-            <div class="gris-mobile2" style="border-bottom: 2px solid #ffc107;">
-              <img src="img/dinerocontainer.svg" alt="Su ganancia por contenedor" class="img-cuadro4">
-              <p class="titulo-columna">Su ganancia<br>por contenedor</p>
-            </div>
-
-            <div class="blanco-mobile" style="border-bottom: 2px solid #ffc107;">
-              <p class="p-columna">$ 300 dólares más iva</p>
-            </div>
-          </div>
-
-
-
-          <div class="cuadro-precios-mobile">
-            <!-- Row 2 Mobile-->
-            <div class="gris-borde1"></div>
-
-            <div class="gris" style="border-right: 2px solid #ffc107;">
-              <p class="titulo-columna">Contenedor usado<br>
-              de 40 pies</p>
-            </div>
-            
-            <div class="gris-mobile2" >
-              <img src="img/precio.svg" alt="Precio de compra" class="img-cuadro1">
-              <p class="titulo-columna" >Precio<br>de compra</p>
-            </div>
-
-            <div class="blanco-mobile">
-              <p class="p-columna">$ 2.800 dólares<br>
-            más iva</p>
-            </div>
-
-            <div class="gris-mobile2">
-              <img src="img/container.svg" alt="Medidas" class="img-cuadro2">
-              <p class="titulo-columna">Medidas</p>
-            </div>
-
-            <div class="blanco-mobile">
-              <p class="p-columna">12 m de largo x<br>
-              2,40 m de ancho x<br>
-              2,40 m de alto</p>
-            </div>
-
-            <div class="gris-mobile2">
-              <img src="img/dinero.svg" alt="Precio sugerido de venta al público" class="img-cuadro3">
-              <p class="titulo-columna" style="color:#0b2999;">Precio sugerido<br>de venta al público</p>
-            </div>
-
-            <div class="blanco-mobile">
-              <p class="p-columna">$ 3.200 dólares más iva</p>
-            </div>
-
-            <div class="gris-mobile2" style="border-bottom: 2px solid #ffc107;">
-              <img src="img/dinerocontainer.svg" alt="Su ganancia por contenedor" class="img-cuadro4">
-              <p class="titulo-columna">Su ganancia<br>por contenedor</p>
-            </div>
-
-            <div class="blanco-mobile" style="border-bottom: 2px solid #ffc107;">
-              <p class="p-columna">$ 400 dólares más iva</p>
-            </div>
-          </div>
-
-
-
-          <div class="cuadro-precios-mobile">
-            <!-- Row 3 Mobile-->
-            <div class="gris-borde1"></div>
-
-            <div class="gris" style="border-right: 2px solid #ffc107;">
-              <p class="titulo-columna">Contenedores de 40 pies<br>
-              jumbo o HC usados</p>
-            </div>
-            
-            <div class="gris-mobile2" >
-              <img src="img/precio.svg" alt="Precio de compra" class="img-cuadro1">
-              <p class="titulo-columna" >Precio<br>de compra</p>
-            </div>
-
-            <div class="blanco-mobile">
-              <p class="p-columna">$ 3.100 dólares<br>
-            más iva</p>
-            </div>
-
-            <div class="gris-mobile2">
-              <img src="img/container.svg" alt="Medidas" class="img-cuadro2">
-              <p class="titulo-columna">Medidas</p>
-            </div>
-
-            <div class="blanco-mobile">
-              <p class="p-columna">12 m de largo x<br>
-              2,40 m de ancho x<br>
-              2,90 m de alto</p>
-            </div>
-
-            <div class="gris-mobile2">
-              <img src="img/dinero.svg" alt="Precio sugerido de venta al público" class="img-cuadro3">
-              <p class="titulo-columna" style="color:#0b2999;">Precio sugerido<br>de venta al público</p>
-            </div>
-
-            <div class="blanco-mobile">
-              <p class="p-columna">$ 3.500 dólares más iva</p>
-            </div>
-
-            <div class="gris-mobile2" style="border-bottom: 2px solid #ffc107;">
-              <img src="img/dinerocontainer.svg" alt="Su ganancia por contenedor" class="img-cuadro4">
-              <p class="titulo-columna">Su ganancia<br>por contenedor</p>
-            </div>
-
-            <div class="blanco-mobile" style="border-bottom: 2px solid #ffc107;">
-              <p class="p-columna">$ 400 dólares más iva</p>
-            </div>
-          </div>
-
-          <p style="color:#8e8e8e; font-size:1em; padding: 0px 20px;" id="contrato">- Estos precios son de contenedores Nacionalizados liberados de Aduana.<br><br>
-          - Precios indicados en dólares a dólar oficial tipo de cambio vendedor Banco Nación Iva del 10,5%</p>
-      </section>
-
-      <!--fin precio section-->
-
        <!--Inicio contrato section-->
        <section class="contrato-section" >
           <div class="contrato-titulo">
@@ -443,6 +175,7 @@ más iva</p>
             <h3>Cómo empezar?</h3>
             <p>Imprimite <a href="https://www.containersriodelaplata.com/licencia/contrato.pdf" target="_blank"><b>aquí el contrato de licencia</b></a> y complétalo y luego firmálo agregando tu nombre completo, apellido, DNI, y aclaración de su firma y luego nos lo envías con el comprobante de pago. </p>
             <h3>Cuánto hay que pagar?</h3>
+<p style="font-size:18px;"><b style="color: #ae242d;text-decoration:underline;">Hasta el 30 de Septiembre bonificamos el costo del 100% de la licencia!<br></b></p>
             <p>La licencia tiene un costo de <b>$76.000 pesos más iva.</b></p>
               <br>
             <p>Podés optar por pagar el canon o costo de la licencia de una sóla vez en <b>un sólo pago por transferencia bancaria al siguiente CBU:</b></p> 
@@ -497,19 +230,19 @@ más iva</p>
                 <li><img src="images/1.PNG" alt="1 - Presentación (CRP Containers)"  title="1 - Presentación (CRP Containers)" />
                 <video preload="none" src="https://www.youtube.com/embed/aG835ylK7Kg" ></video>
                 </li>
-                <li><img src="images/2.png" alt="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)"  title="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)" />
+                <!-- <li><img src="images/2.png" alt="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)"  title="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)" />
                 <video preload="none" src="https://youtu.be/R5IkpnAgYp0" ></video>
-                </li>
-                <li><img src="images/3.png" alt="3 - En que consiste la Licencia (CRP Containers Rio de la plata)"  title="3 - En que consiste la Licencia (CRP Containers Rio de la plata)" />
+                </li> -->
+                <li><img src="images/3.png" alt="3 - En que consiste la Licencia (CRP Containers Rio de la plata)"  title="2 - En que consiste la Licencia (CRP Containers Rio de la plata)" />
                 <video preload="none" src="https://www.youtube.com/embed/1ppn9wKQFDk" ></video>
                 </li>
-                <li><img src="images/4.png" alt="4 - Proyecto laboral (CRP Containers Rio de la plata)"  title="4 - Proyecto laboral (CRP Containers Rio de la plata)" />
+                <li><img src="images/4.png" alt="4 - Proyecto laboral (CRP Containers Rio de la plata)"  title="3 - Proyecto laboral (CRP Containers Rio de la plata)" />
                 <video preload="none" src="https://www.youtube.com/embed/YGaPYcKUuy4" ></video>
                 </li>
             </ul>
             <ul class="amazingslider-thumbnails" style="display:none;">
                 <li><img src="images/1-tn.PNG" alt="1 - Presentación (CRP Containers)" title="1 - Presentación (CRP Containers)" /></li>
-                <li><img src="images/2-tn.png" alt="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)" title="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)" /></li>
+                <!--<li><img src="images/2-tn.png" alt="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)" title="2 - Cómo ser Licenciatario (CRP Containers Rio de la plata)" /></li>-->
                 <li><img src="images/3-tn.png" alt="3 - En que consiste la Licencia (CRP Containers Rio de la plata)" title="3 - En que consiste la Licencia (CRP Containers Rio de la plata)" /></li>
                 <li><img src="images/4-tn.png" alt="4 - Proyecto laboral (CRP Containers Rio de la plata)" title="4 - Proyecto laboral (CRP Containers Rio de la plata)" /></li>
             </ul>

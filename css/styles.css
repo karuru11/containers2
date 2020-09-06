@@ -41,7 +41,7 @@
 .hero-text h1 {color: #292828;
     font-size: 3em;
     font-weight: 1000 ;
-    width: 600px;padding-top: 15px;}
+        width: 576px;padding-top: 15px;}
 
 .hero-text p {color: #292828;
     width: 400px;
@@ -71,7 +71,7 @@
 
 /*inicio requisitos section */
     .section-requisitos{
-        height: 350px;
+            height: 450px;
         background-image: url(../img/fondo-azul.svg);
         background-position: center; 
         background-repeat: no-repeat; 
@@ -176,6 +176,45 @@
 
     .ventajas-icono img {
         width: 40%;
+    }
+
+
+    .ventajas-txt-empresas{
+        text-align: left;
+    }
+
+    .ventajas-txt-empresas h1{
+        color: #dfe0e0;
+        font-size: 40px;
+        font-weight: 1000;
+    }
+
+    .ventajas-txt-empresas h2{ 
+        color: #292929;
+        font-weight: 1000;
+    }
+    
+    .ventajas-txt-empresas b{
+        color: #FFC107;
+        font-weight: 1000;
+    }
+
+    .ventajas-txt-empresas{}
+
+    .ventajas-section-empresas {display: grid;
+        grid-template-columns: 40% 60%;
+        margin: 0 auto;
+        max-width: 1080px;
+        align-items: center;
+    }
+
+    .ventajas-empresas {margin: 0 auto;
+      text-align: center
+    }
+
+    .ventajas-empresas img { width: 30%;
+        text-align: center;
+        margin: 0 auto;
     }
 
 /*fin ventajas section*/

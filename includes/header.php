@@ -9,7 +9,6 @@
         <li><a id="headerTools" class="link-pricing" href="#inicio">Inicio</a></li>
         <li><a id="headerPricing" class="link-pricing" href="#requisitos">Requisitos</a></li>
         <li><a id="headerSupportLnk" class="link-pricing" href="#ventajas">Ventajas</a></li>
-        <li><a id="headerSupportLnk" class="link-pricing" href="#precios">Precios</a></li>
         <li><a id="headerSupportLnk" class="link-pricing" href="#contrato">Contrato</a></li>
         <li><a id="headerSupportLnk" class="link-pricing" href="#web">Tu propia web</a></li>
         <li><a id="headerSupportLnk" class="link-pricing" href="#videos">Videos informativos</a></li>
