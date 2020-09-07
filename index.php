@@ -251,6 +251,34 @@
     </div>
 
       <!--Fin slider section-->
+
+      <!--inicio creador section-->
+        <section class="creador">
+            <div class="creador-grid">
+              <div class="creador-img">
+                <img src="img/sergio.png" alt="sergio saban">
+              </div>
+              
+              <div class="creador-txt">
+                  <h1>Sergio Sabán</h1>
+                  <h2>CREADOR DE CRP CONTAINERS</h2>
+                  <p>Responsable y creador de la primera Red de empresas que comercializan contenedores marítimos legales en la República Argentina actuando en el país, como cenciatarios de CRP Containers Río de la Plata, bríndandoles a los clientes la seguridad y la confianza de que comprando a cualquier de los integrantes de la red, están adquiriendo contenedores marítimos con origen, procedencia y documentación adunanera y fiscal legal!</p>
+                  <br>
+
+                  <p>Sergio Sabán.</p>
+                  <p>Creador de crp containers.</p>
+
+               </div>
+            
+            </div>
+
+
+
+        </section>
+
+      <!--fin creador section-->
+
+
   <!--FOOTER-->
     <section class="footer-section">
         <div class="footer-logo">
